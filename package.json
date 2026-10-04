@@ -1,0 +1,19 @@
+{
+  "name": "drr-fair-queue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DRR 字节公平队列与额度结转回放后端（TypeScript + Node.js + SQLite）",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/engine.test.js dist/test/extra.test.js",
+    "start": "npm run build && node dist/src/cli.js serve",
+    "cli": "node dist/src/cli.js",
+    "demo": "npm run build && node dist/src/cli.js demo"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  }
+}
+
+
