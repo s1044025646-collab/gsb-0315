@@ -1,0 +1,22 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx --test tests/engine.test.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "cli": "node dist/cli.js",
+    "demo": "tsx src/demo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
